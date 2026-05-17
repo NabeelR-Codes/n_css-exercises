@@ -46,3 +46,34 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* Solution starts here*/
+
+.header{
+  display: flex;
+}
+
+.left-s{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo{
+  margin-left: 10px;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.right-s{
+  display: flex;
+  margin-left: auto;
+  margin-right: 15px;
+  gap: 10px;
+  align-items: center;
+}
+
+
